@@ -9,7 +9,10 @@
 
  ## git commit (Confirmando cambios)
   - git commit -m 'msg'
-  - git log
+  - git commit -m 'msg' --amend (concatenar cambios o confirmaciones)
+      git commit --amend = Modificar la última confirmación de cambios (commit). Dos suelen ser los cambios básicos a realizar: cambiar el mensaje o cambiar los archivos añadidos, modificados o borrados. 
+      git commit --amend (solo sin -m)
+  - git log (nos muestra la historia de todos los commits que hemos realizados.)
 
 # Working directory
   untracked files, modificaiones y sin confirmar
