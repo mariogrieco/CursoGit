@@ -37,10 +37,13 @@
    - git log --oneline --graph 
    - git log -1 (ver contando desde el ultimo commit 1, puedo cambiar o limitar la cantidad a mostar)
 
-  ## Revisando los cambios entre versiones (git diff)  
+  ## Revisando los cambios entre versiones (git diff , importante el orden de los parametros)  
     - git diff <sha1> (compara el commit ref con el estado actual))
     - git diff <sha1|tag> <sha1|tag> (compara entre ellos podrian ser ramas tb)
-    -   
+
+  ## git reset -- soft
+    -
+
 # Working directory
   untracked files, modificaiones y sin confirmar
 # Staging Area
