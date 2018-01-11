@@ -32,11 +32,14 @@
   - git tag -d <name> (delete)
   - git tag -f ... <sha1> (no borra)
 
+<<<<<<< HEAD
   ## Revisando la historia de nuestro proyecto (git log) [argumento encadenables] me permite ver ref a commits pasados
    - git log --stat
    - git log --oneline --graph 
    - git log -1 (ver contando desde el ultimo commit 1, puedo cambiar o limitar la cantidad a mostar)
 
+=======
+>>>>>>> d022228cdd4b2589218b56dde38cb58ccdaf77e6
 # Working directory
   untracked files, modificaiones y sin confirmar
 # Staging Area
