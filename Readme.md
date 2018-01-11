@@ -22,6 +22,12 @@
   
   - git tag -l (ver lista de tags)
 
+  - se pueden etiquetar versiones pasadas ( sha1 )
+    git tag x.x <sha1>
+    
+  - git tag -d <name> (delete)
+  - git tag -f ... <sha1> (no borra)
+
 # Working directory
   untracked files, modificaiones y sin confirmar
 # Staging Area
