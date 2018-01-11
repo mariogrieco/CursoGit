@@ -12,6 +12,7 @@
   - git rm --cached <file> (elimina un archivo solo del staging area, unstage)
 
  ## git commit (Confirmando cambios)
+  - git log (nos muestra la historia de todos los commits que hemos realizados.)
   - git commit -m 'msg'
   - git commit -m 'msg' --amend (concatenar cambios o confirmaciones)
       git commit --amend = Modificar la última confirmación de cambios (commit). Dos suelen ser los cambios básicos a realizar: cambiar el mensaje o cambiar los archivos añadidos, modificados o borrados. 
@@ -40,7 +41,7 @@
   ## Revisando los cambios entre versiones (git diff)  
     - git diff <sha1> (compara el commit ref con el estado actual))
     - git diff <sha1|tag> <sha1|tag> (compara entre ellos podrian ser ramas tb)
-    -   
+  
 # Working directory
   untracked files, modificaiones y sin confirmar
 # Staging Area
